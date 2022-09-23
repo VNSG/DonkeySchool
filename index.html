@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vincent Pennec" />
+    <meta name="description"
+            content="here's my first portfolio version" />
     <title>Mon portfolio</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
             <section>
                 <div>
                     <h2>Etudes</h2>
-                    <img src="https://via.placeholder.com/100">
+                    <img src="https://via.placeholder.com/100" alt="études">
                     <ul>
                         <li>Nom</li>
                         <li>Prénom</li>
@@ -73,7 +74,7 @@
                 <h2>Articles</h2>
                 <div>
                     <div>
-                        <img src="https://via.placeholder.com/150">
+                        <img src="https://via.placeholder.com/150" alt="articles">
                     </div>
                     <div>
                         <div>
@@ -92,7 +93,7 @@
                 </div>
                 <div>
                     <div>
-                        <img src="https://via.placeholder.com/150">
+                        <img src="https://via.placeholder.com/150" alt="article 1">
                     </div>
                     <div>
                         <div>
@@ -105,20 +106,26 @@
                             <input type="button" value="Lire">
                             <input type="button" value="Commentaires">
                         </div>
+                        <div>
+                            <img src="https://via.placeholder.com/150" alt="article 1">
+                        </div>
                     </div>
                 </div>
             </section>
             <section>
                 <h2>Contact</h2>
                 <div>
-                    <label for="first-name">Nom et Prenom: <input id="first-name" name="first-name" type="text" required /></label>
+                    <label for="name">Nom et Prenom:</label>
+                     <input name="name" type="text" />
                 </div>
                 <div>
-                    <label for="E-mail">E-mail: <input id="E-mail" name="E-mail" type="text" required /></label>
+                    <label for="E-mail">E-mail:</label>
+                     <input name="E-mail" type="email" required />
                 </div>
                 <div>
-                    <label for="Message">Message <textarea id="bio" name="bio" rows="3
-                        " cols="30" placeholder="Ecrivez ici."></textarea></label>
+                    <label for="msg">Message </label>
+                    <textarea id="msg" name="name_message" rows="3
+                        " cols="30" placeholder="Ecrivez ici."></textarea>
                 </div>
                 <div>
                     <input type="button" value="Envoyé">
@@ -128,7 +135,7 @@
 
     <footer>
 	
-			<a href="https://monportfolio.com">monportfolio.com</a>
+			<a href="https://monportfolio.com" title="The best place to find how you do a portfolio">monportfolio.com</a>
 	
 	</footer>
 </body>
