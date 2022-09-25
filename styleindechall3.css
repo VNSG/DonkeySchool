@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 img:hover {
 	opacity: 50%;
 }
@@ -13,9 +16,57 @@ h1 {
     font-size: 50px; 
 }
 body {
-    background-color:blanchedalmond;
+    background-color:rgba(241, 239, 235, 0.894);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
 }
-img:first-child
-{
-    filter: grayscale(1);
+img:hover:last-child {
+	filter: grayscale(10)
+}
+h2 {
+    color: blueviolet;
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+header {
+    border-bottom: 1px solid cornflowerblue;
+}
+header li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+header li a {
+    display: block;
+    padding: 20px;
+}
+header li:hover a {
+    background-color: rgb(62, 215, 87);
+    color: aliceblue;
+}
+header li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(62, 215, 87);
+    width: 200px;
+}
+.sub-menu li {
+    display: block;
+}
+.sub-menu li a {
+    color: aliceblue;
+}
+.sub-menu li:hover a {
+    background-color: aliceblue;
+    color: rgb(62, 215, 87);
 }
