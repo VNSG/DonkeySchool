@@ -6,8 +6,8 @@ img:hover {
 }
 
 img {
-        width : 150px;
-        height : 150px;
+        width : 400px;
+        height : 400px;
         border-radius: 3px;
     }
 
@@ -21,11 +21,11 @@ body {
     font-size: 16px;
     line-height: 22px;
 }
-img:hover:last-child {
+.gray:first-of-type {
 	filter: grayscale(10)
 }
 h2 {
-    color: blueviolet;
+    color: gray;
 }
 a {
     text-decoration: none;
@@ -33,9 +33,10 @@ a {
 .wrapper {
     margin: 0 auto;
     width: 1000px;
+    position: sticky;
 }
 header {
-    border-bottom: 1px solid cornflowerblue;
+    border-bottom: 3px solid rgb(0, 4, 10);
 }
 header li {
     display: inline-block;
@@ -47,7 +48,7 @@ header li a {
     padding: 20px;
 }
 header li:hover a {
-    background-color: rgb(62, 215, 87);
+    background-color: gray;
     color: aliceblue;
 }
 header li:hover .sub-menu {
@@ -57,7 +58,7 @@ header li:hover .sub-menu {
 .sub-menu {
     display: none;
     position: absolute;
-    background-color: rgb(62, 215, 87);
+    background-color: gray;
     width: 200px;
 }
 .sub-menu li {
@@ -68,5 +69,5 @@ header li:hover .sub-menu {
 }
 .sub-menu li:hover a {
     background-color: aliceblue;
-    color: rgb(62, 215, 87);
+    color: grey;
 }
