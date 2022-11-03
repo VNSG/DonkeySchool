@@ -1,12 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
+    <meta name="author" content="Vincent Pennec" />
+    <meta name="description" content="here's my first portfolio version" />
+    <link rel="stylesheet" href="styleindechall3.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Mon portfolio by Vincent</title>
+    <script src="https://kit.fontawesome.com/5cf887e2da.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <!-----------------debut du menu deroulant------------------>
+    <nav class="menuderoulant">
+        <ul class="main-menu">
+            <li>
+                <a href="#urlheader" title="background">Home</a>
+            </li>
+            <li>
+                <a href="#urlEtudes" title="Etudes">Etudes</a>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="#urldate1" title="date1">DonkeySchool</a>
+                    </li>
+                    <li>
+                        <a href="#urldate2" title="date2">Bac sti</a>
+                    </li>
+                    <li>
+                        <a href="#urldate3" title="date3">Brevet</a>
+                    </li>
+                </ul> 
+            </li>
+            <li>
+                <a href="#urlaboutme" title="About Me">A propos de moi</a>
+            </li>
+            <li>
+                <a href="#urlprojet" title="projets">Projets</a>
+                <ul class="sub-menu">
+                    <li> <a href="#urlprojet1" title="projet1">Projet 1</a>
+                    </li>
+                    <li>
+                        <a href="#urlprojet2" title="projet2">Projet 2</a>
+                    </li>
+                    <li>
+                        <a href="#urlprojet3" title="projet3">Projet 3</a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li>
+                <a href="#urlcontact" title="Contactez-moi">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-----------------fin du menu deroulant------------------>
+    <header class="background" id="urlheader">
+        <h1 class="position">PENNEC VINCENT</h1>
+        <h2 class="dev">Developpeur Web</h2>
+        <div class="reseaux">
+            <a href="https://twitter.com/veens34"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/vincent-pennec-903397235/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <button type="submit" class="buttonhome">
+            <a href="#name">
+               Me contacter
+            </a>
+         </button>
+    </header>
+    <main>
+    <div class="background1">   
+        <section class="section1" id="urlEtudes"> 
+            <div class="backetudes"></div>
+                    <h2 class="headsh2">Etudes</h2>
+                    <div class="globaletudes">
+                        <img class="hover-effect"
+                            src="https://i1.wp.com/www.univ-dschang.org/wp-content/uploads/2015/06/LAUREAT2.jpg?fit=1000%2C666&ssl=1"
+                            alt="études">
+                            <div class="columflex">
+                                <div>
+                                    <p class="etudestitle">DonkeySchool</p>
+                                    <p>Les infos concerant la formation Developpeur web commencee en septembre 2022</p>
+                                </div>
+                                <div>
+                                    <p class="etudestitle">Baccalaureat sti</p>
+                                    <p>Les infos concerant l'obtention de mon Bac sti electrotechnique</p>
+                                </div>
+                            </div>
+                    </div>
+        </section>
+    </div>
+
+        <div class="backperso">
+            <section class="section2">
+                <div id="urlaboutme"></div>
+                <h2 id="urlaboutme" class="headsh2">A propos de moi</h2>
+                <div class="affich">
+                    <div>
+                        <img id="urlaboutme1" class="headsh2"
+                            src="https://www.wagralim.be/wp-content/uploads/2020/02/projet-innovation-610x380.jpg"
+                            alt="projet 1">
+                    </div>
+                    <div class="presentation">
+                        <ul class="rens">
+                            <li>PENNEC </li>
+                            <li>Vincent</li>
+                            <li>39 ans</li>
+                            <li>vincentpennec@free.fr</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <p class="cv">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloribus beatae veritatis
+                        quod amet aspernatur vel a non id praesentium ipsa dolorem maiores harum dolores provident,
+                        adipisci vitae alias. Expedita?</p>
+                </div>
+        </div>
+            </section>
+        <div class="backgr">
+            <section class="section3">
+                <div id="urlprojet"></div>
+                <h2 class="headsh2title">Projets Réalisés</h2>
+                <img id="urlprojet1" class="topprojet"
+                    src="https://www.wagralim.be/wp-content/uploads/2020/02/projet-innovation-610x380.jpg"
+                    alt="projet 1">
+                <div class="flexpro">
+                    <div class="projetun">
+                        <img id="urlprojet1" class="gray"
+                            src="https://blog.nicolashachet.com/wp-content/uploads/2013/02/projets.jpg" alt="projet 1">
+                        <h3>Projet 1</h3>
+                        <p>ici quelques realisations de mes experiences</p>
+                        <input type="button" value="en savoir plus">
+                    </div>
+                    <div class="projetdeux">
+                        <img id="urlprojet2" class="gray" src="https://www.agera.asso.fr/app/uploads/2020/08/Projet.jpg"
+                            alt="projet 2">
+                        <h3>Projet 2</h3>
+                        <p>ici quelques realisations de mes experiences</p>
+                        <input type="button" value="en savoir plus">
+                    </div>
+                    <div class="projettrois">
+                        <img id="urlprojet3" class="gray"
+                            src="https://www.pole-emploi.fr/files/live/sites/PE/files/actualites/vignetteideee62655.jpg"
+                            alt="projet 3">
+                        <h3>Projet 3</h3>
+                        <p>ici quelques realisations de mes experiences</p>
+                        <input type="button" value="en savoir plus">
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <section class="section5">
+            <div id="urlcontact"></div>
+            <div class="formulaire">
+                <div>
+                    <h2 id="urlcontact" class="h2title">Contact</h2>
+                    <div class="input">
+                        <label for="name"></label>
+                        <input id="name" name="name" placeholder="Nom Prenom" type="text" />
+                    </div>
+                    <div class="input">
+                        <label for="E-mail"></label>
+                        <input id=email name="E-mail" placeholder="E-mail" type="email" required />
+                    </div>
+                    <div class="inputmsg">
+                        <label for="msg"></label>
+                        <textarea id="urlmsg" name="name_message" rows="3
+                    " cols="30" placeholder="Ecrivez ici..."></textarea>
+                    </div>
+                    <div>
+                        <input type="button" value="Envoyer">
+                    </div>
+                </div>
+            </div>
+            <a class="footerlink" href="https://live.donkey.school" title="Best Dev' school">DonkeySchool</a>
+        </section>
+    </footer>
 </body>
+
 </html>
